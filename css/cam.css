@@ -1,5 +1,5 @@
 body {
-  min-width: 850px;
+  min-width: 900px;
 }
 .navbg{
   background-color: #666666;
@@ -51,5 +51,5 @@ body {
 .btntxt {
   font-family: 'Oswald', sans-serif;
   color: white;
-  font-size: medium;
+  font-size: large;
 }
