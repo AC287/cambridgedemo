@@ -16,7 +16,7 @@ body {
 .sm-navi {
   color: white;
   text-align: right;
-  padding: 5px;
+  /*padding: 5px;*/
 }
 .navi-ph-size {
   font-size: 15px;
@@ -24,29 +24,41 @@ body {
   margin-right: 2px;
 }
 .navi-ph {
-  font-size: 18px;
-  font-weight: bold;
+  /*font-size: 18px;*/
+  /*font-weight: bold;*/
   margin: 0 auto;
   vertical-align: middle;
   margin-right: 15px;
 }
 .navi-margin {
-  margin-right: 5px;
+  margin-right: 10px;
+}
+.s-icon {
+  color: white;
+  font-size: 25px;
+  outline: none;
+  vertical-align: middle;
 }
 .navi1 {
   background-color: #003DA5;
-  vertical-align: middle;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  /*vertical-align: middle;*/
+  height: 50px;
+  /*padding-top: 5px;*/
+  /*padding-bottom: 5px;*/
 }
 .navi1-logo {
   display: inline-block;
-  /*float: left;*/
+  float: left;
+  /*vertical-align: middle;*/
+  margin: auto;
+  padding: 10px;
 }
 .navi1-btn{
   display: inline-block;
   float: right;
-  padding-top: 10px;
+  margin: center;
+  padding: 10px;
+  /*vertical-align: middle;*/
 }
 .btntxt {
   font-family: 'Oswald', sans-serif;
@@ -60,7 +72,7 @@ body {
 .navi2-logo {
   font-family: 'Oswald', sans-serif;
   color: #003DA5;
-  font-size: large;
+  /*font-size: medium;*/
   padding-left: 25px;
 }
 .navi2-search {
@@ -69,8 +81,71 @@ body {
   vertical-align: middle;
   text-align: right;
 }
+.search-grid {
+  padding: 10px;
+}
 .search-txt {
   color: #003DA5;
-  font-size: 1.5em;
-  font-weight: bold;
+  /*font-size: 1.5em;*/
+  /*font-weight: bold;*/
+}
+.searchbox {
+  margin-right: 10px;
+}
+.general-category {
+  background-image: url("../images/silvergradient.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #003DA5;
+  /*height: 200px;*/
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  /*padding-top: 15px;*/
+}
+.gc-block {
+  padding-top: 15px;
+  height: 100%;
+  /*text-align: center;*/
+  /*padding: 10px;*/
+  /*float: left;*/
+  margin: auto;
+  text-align: center;
+}
+.gc-block i {
+  color: black;
+}
+.gc-block-title {
+  font-size: 2em;
+  /*font-weight: bold;*/
+}
+.gc-desc-img {
+  height: 200px;
+  width: 250px;
+  /*background-image: url("../images/hvac_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;*/
+}
+.gc-desc-img img{
+  padding-top: 15px;
+  margin: auto;
+  /*display: none;*/
+}
+.hvac-desc {
+  display: none;
+}
+.plumbing-desc {
+  display: none;
+}
+.electrical-desc {
+  display: none;
+}
+.automotive-desc {
+  display: none;
+}
+.retail-desc {
+  display: none;
+}
+.oem-desc {
+  display: none;
 }
