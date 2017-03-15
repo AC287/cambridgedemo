@@ -99,12 +99,16 @@ body {
   color: #003DA5;
   /*height: 200px;*/
   font-family: 'Oswald', sans-serif;
+  display: flex;
+  padding-top: 15px;
 }
 .gc-block {
   height: 100%;
   /*text-align: center;*/
-  padding: 10px;
+  /*padding: 10px;*/
   /*float: left;*/
+  margin: auto;
+  text-align: center;
 }
 .gc-block i {
   color: black;
@@ -114,8 +118,10 @@ body {
   /*font-weight: bold;*/
 }
 .gc-desc-img {
-  height: 70%;
+  height: 150px;
 }
 .gc-desc-img img{
-  vertical-align: middle;
+  display: table-cell;
+  padding-top: 15px;
+  margin: auto;
 }
