@@ -1,5 +1,5 @@
 body {
-  min-width: 1370px;
+  min-width: 900px;
 }
 .navbg{
   background-color: #666666;
@@ -95,14 +95,16 @@ body {
 .general-category {
   background-image: url("../images/silvergradient.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   color: #003DA5;
   /*height: 200px;*/
   font-family: 'Oswald', sans-serif;
   display: flex;
-  padding-top: 15px;
+  flex-wrap: wrap;
+  /*padding-top: 15px;*/
 }
 .gc-block {
+  padding-top: 15px;
   height: 100%;
   /*text-align: center;*/
   /*padding: 10px;*/
@@ -118,10 +120,32 @@ body {
   /*font-weight: bold;*/
 }
 .gc-desc-img {
-  height: 150px;
+  height: 200px;
+  width: 250px;
+  /*background-image: url("../images/hvac_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;*/
 }
 .gc-desc-img img{
-  display: table-cell;
   padding-top: 15px;
   margin: auto;
+  /*display: none;*/
+}
+.hvac-desc {
+  display: none;
+}
+.plumbing-desc {
+  display: none;
+}
+.electrical-desc {
+  display: none;
+}
+.automotive-desc {
+  display: none;
+}
+.retail-desc {
+  display: none;
+}
+.oem-desc {
+  display: none;
 }
