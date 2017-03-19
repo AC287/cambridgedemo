@@ -125,9 +125,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   /*padding-top: 15px;*/
+  padding-bottom: 50px;
 }
 .gc-block {
-  padding-top: 15px;
+  /*display: table;*/
+  padding-top: 30px;
   height: 100%;
   /*text-align: center;*/
   /*padding: 10px;*/
@@ -143,16 +145,25 @@ body {
   /*font-weight: bold;*/
 }
 .gc-desc-img {
+  /*display: table-cell;*/
   height: 200px;
+  /*vertical-align: middle;*/
   width: 250px;
   /*background-image: url("../images/hvac_icon.png");
   background-repeat: no-repeat;
   background-position: center;*/
 }
 .gc-desc-img img{
-  padding-top: 15px;
-  margin: auto;
+  /*vertical-align: middle;*/
+  padding-top: 45px;
+  /*margin: auto;*/
   /*display: none;*/
+}
+.gc-desc-img p {
+  /*display: table-cell;*/
+  /*vertical-align: middle;*/
+  color: black;
+  margin: 0 auto;
 }
 .hvac-desc {
   display: none;
