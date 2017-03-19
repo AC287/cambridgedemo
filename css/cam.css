@@ -119,6 +119,7 @@ body {
   background-image: url("../images/silvergradient.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  width: inherit;
   color: #003DA5;
   /*height: 200px;*/
   font-family: 'Oswald', sans-serif;
@@ -182,4 +183,45 @@ body {
 }
 .oem-desc {
   display: none;
+}
+.footer1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /*width: inherit;*/
+  background-color: #666666;
+  font-family: 'Oswald', sans-serif;
+  /*color: white;*/
+}
+.footer1 a {
+  text-decoration: none;
+  color: white;
+}
+.footer1-subtxt {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer1-subtxt li {
+  padding-left: 16px;
+}
+.footer1-subtxt li:before{
+  content: "-";
+  padding-right: 8px;
+  color: white;
+}
+.certifications {
+  text-align: center;
+}
+.footer2 {
+  background-color: #003DA5;
+  /*width: inherit;*/
+  color: white;
+}
+.copyright {
+  padding-top: 8px;
+  padding-left: 15px;
+}
+.footer-socialmedia {
+  float: right;
+  padding-right: 20px;
 }
