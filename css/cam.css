@@ -143,15 +143,16 @@ body {
   /*font-weight: bold;*/
 }
 .gc-desc-img {
-  height: 200px;
+  line-height: 200px;
+  vertical-align: middle;
   width: 250px;
   /*background-image: url("../images/hvac_icon.png");
   background-repeat: no-repeat;
   background-position: center;*/
 }
 .gc-desc-img img{
-  padding-top: 15px;
-  margin: auto;
+  /*padding-top: 15px;*/
+  /*margin: auto;*/
   /*display: none;*/
 }
 .hvac-desc {
