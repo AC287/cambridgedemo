@@ -1,6 +1,8 @@
 $(document).ready(function(){
   console.log('cam.js is loaded');
 
+  $('[data-toggle="tooltip"]').tooltip();
+
   $('.gc-block').mouseenter(function(){
     var currentClass = '.'+classSplit($(this).attr('class'));
     // console.log(currentClass);
