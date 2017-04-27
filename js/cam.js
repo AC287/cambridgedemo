@@ -27,6 +27,7 @@ $(document).ready(function(){
     // console.log(currentClass);
     var imgClass = '.'+currentClass+'-desc';
     $(currentClass + ' img').hide();
+    $(currentClass + ' span').hide();
     $(currentClass + '-desc').fadeIn();
 
   }).mouseleave(function(){
@@ -35,6 +36,7 @@ $(document).ready(function(){
     var imgClass = '.'+currentClass+'-desc';
     $(currentClass + '-desc').hide();
     $(currentClass + ' img').fadeIn();
+    $(currentClass + ' span').fadeIn();
   })
 
   function classSplit(x){
