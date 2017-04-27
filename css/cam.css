@@ -1,5 +1,26 @@
+/* fonts */
+@font-face {
+  font-family: 'BigNoodleTitling';
+  src: url('../fonts/BigNoodleTitling.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BigNoodleTitling';
+  src:  url('../fonts/BigNoodleTitling.woff') format('woff'), url('../fonts/BigNoodleTitling.ttf')  format('truetype'), url('../fonts/BigNoodleTitling.svg#BigNoodleTitling') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.bnt-font {
+  font-family: 'BigNoodleTitling';
+}
+.questrial-font {
+  font-family: 'Questrial', sans-serif;
+}
+/* end fonts */
 body {
-  min-width: 1200px;
+  /*min-width: 1320px;*/
 }
 a:hover {
   text-decoration: none;
@@ -58,7 +79,7 @@ a:hover {
   float: left;
   text-align: center;
   margin: auto;
-  padding-top: 15px;
+  padding-top: 12px;
   height: 100%;
 }
 .navi1-logo a {
@@ -72,9 +93,9 @@ a:hover {
   /*vertical-align: middle;*/
 }
 .btntxt {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Questrial', sans-serif;
   color: white;
-  font-size: large;
+  font-size: medium;
 }
 .navi2 {
   /*padding: 10px;*/
@@ -83,8 +104,14 @@ a:hover {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+.navi2-logo-0 {
+  /*font-family: 'BigNoodleTitling';*/
+  color: #003DA5;
+  font-size: 20px;
+  /*margin-top: 30px;*/
+}
 .navi2-logo {
-  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
   color: #003DA5;
   /*font-size: medium;*/
   padding-left: 15px;
@@ -119,13 +146,14 @@ a:hover {
   /*margin: 0 auto;*/
 }
 .general-category {
-  background-image: url("../images/silvergradient.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: inherit;
+  /*background-image: url("../images/silvergradient.jpg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*width: inherit;*/
+  background-color: #ffffff;
   color: #003DA5;
   /*height: 200px;*/
-  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
   /*display: flex;*/
   /*flex-wrap: wrap;*/
   /*padding-top: 15px;*/
@@ -145,12 +173,16 @@ a:hover {
   color: black;
 }
 .gc-block-title {
-  font-size: 2em;
-  font-weight: bold;
+  /*font-size: 2em;*/
+  font-family: 'BigNoodleTitling';
+  /*font-weight: bold;*/
+  font-size: 25px;
+  /*padding-top: 175px;*/
 }
 .gc-desc-img {
   /*display: table-cell;*/
   height: 200px;
+  /*position: relative;*/
   /*vertical-align: middle;*/
   /*width: 250px;*/
   /*background-image: url("../images/hvac_icon.png");
@@ -159,16 +191,24 @@ a:hover {
 }
 .gc-desc-img img{
   /*vertical-align: middle;*/
-  padding-top: 45px;
+  height: 150px;
+  width: 150px;
+  /*padding-top: 45px;*/
   /*margin: auto;*/
   /*display: none;*/
 }
 .gc-desc-img p {
+  /*font-family: 'BigNoodleTitling';*/
   /*display: table-cell;*/
   /*vertical-align: middle;*/
   color: black;
-  font-size: 19px;
-  /*margin: 0 auto;*/
+  /*font-size: 19px;*/
+  /*margin: 0;*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*-ms-transform: translate(-50%, -50%);*/
+  /*transform: translate(-50%, -50%);*/
 }
 .hvac-desc {
   display: none;
@@ -187,6 +227,9 @@ a:hover {
 }
 .oem-desc {
   display: none;
+}
+.mid-menu {
+  text-align: center;
 }
 .footer1 {
   padding-top: 25px;
