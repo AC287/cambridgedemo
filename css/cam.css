@@ -19,8 +19,8 @@
   font-family: 'Questrial', sans-serif;
 }
 /* end fonts */
-html {
-  min-width: 1200px;
+body {
+  /*min-width: 1320px;*/
 }
 a:hover {
   text-decoration: none;
@@ -104,8 +104,14 @@ a:hover {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+.navi2-logo-0 {
+  /*font-family: 'BigNoodleTitling';*/
+  color: #003DA5;
+  font-size: 20px;
+  /*margin-top: 30px;*/
+}
 .navi2-logo {
-  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
   color: #003DA5;
   /*font-size: medium;*/
   padding-left: 15px;
@@ -140,13 +146,14 @@ a:hover {
   /*margin: 0 auto;*/
 }
 .general-category {
-  background-image: url("../images/silvergradient.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: inherit;
+  /*background-image: url("../images/silvergradient.jpg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*width: inherit;*/
+  background-color: #ffffff;
   color: #003DA5;
   /*height: 200px;*/
-  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
   /*display: flex;*/
   /*flex-wrap: wrap;*/
   /*padding-top: 15px;*/
@@ -166,8 +173,10 @@ a:hover {
   color: black;
 }
 .gc-block-title {
-  font-size: 2em;
-  font-weight: bold;
+  /*font-size: 2em;*/
+  font-family: 'BigNoodleTitling';
+  /*font-weight: bold;*/
+  font-size: 30px;
 }
 .gc-desc-img {
   /*display: table-cell;*/
@@ -180,7 +189,9 @@ a:hover {
 }
 .gc-desc-img img{
   /*vertical-align: middle;*/
-  padding-top: 45px;
+  height: 200px;
+  width: 200px;
+  /*padding-top: 45px;*/
   /*margin: auto;*/
   /*display: none;*/
 }
