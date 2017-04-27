@@ -229,7 +229,9 @@ a:hover {
   display: none;
 }
 .mid-menu {
+  background-color: #003DA5;
   text-align: center;
+  color: #ffffff;
 }
 .footer1 {
   padding-top: 25px;
