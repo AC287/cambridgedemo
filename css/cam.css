@@ -1,3 +1,24 @@
+/* fonts */
+@font-face {
+  font-family: 'BigNoodleTitling';
+  src: url('../fonts/BigNoodleTitling.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BigNoodleTitling';
+  src:  url('../fonts/BigNoodleTitling.woff') format('woff'), url('../fonts/BigNoodleTitling.ttf')  format('truetype'), url('../fonts/BigNoodleTitling.svg#BigNoodleTitling') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.bnt-font {
+  font-family: 'BigNoodleTitling';
+}
+.questrial-font {
+  font-family: 'Questrial', sans-serif;
+}
+/* end fonts */
 html {
   min-width: 1200px;
 }
@@ -58,7 +79,7 @@ a:hover {
   float: left;
   text-align: center;
   margin: auto;
-  padding-top: 15px;
+  padding-top: 12px;
   height: 100%;
 }
 .navi1-logo a {
@@ -72,9 +93,9 @@ a:hover {
   /*vertical-align: middle;*/
 }
 .btntxt {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Questrial', sans-serif;
   color: white;
-  font-size: large;
+  font-size: medium;
 }
 .navi2 {
   /*padding: 10px;*/
