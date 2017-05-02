@@ -229,9 +229,26 @@ a:hover {
   display: none;
 }
 .mid-menu {
+  height: 50px;
   background-color: #003DA5;
   text-align: center;
   color: #ffffff;
+}
+.mid-menu .container {
+  padding-top: 10px;
+}
+#mid-menu-menu {
+  font-family: 'BigNoodleTitling';
+  font-size: 25px;
+  margin-top: 10px;
+}
+#mid-menu-menu a {
+  font-size: 25px;
+  color: #ffffff;
+}
+.mm-divider {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .footer1 {
   padding-top: 25px;
