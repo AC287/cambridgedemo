@@ -36,7 +36,7 @@ a:hover {
 }
 .top-nav {
   background-color: #003DA5;
-  display: grid;
+  /*display: grid;*/
 }
 .sm-navi {
   color: white;
@@ -79,11 +79,9 @@ a:hover {
   float: left;
   text-align: center;
   margin: auto;
-  padding-top: 12px;
-  height: 100%;
-}
-.navi1-logo a {
-  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  /*height: 100%;*/
 }
 .navi1-btn{
   display: inline-block;
@@ -91,11 +89,21 @@ a:hover {
   margin: center;
   padding: 10px;
   /*vertical-align: middle;*/
-}
-.btntxt {
   font-family: 'Questrial', sans-serif;
-  color: white;
+  /*color: #ffffff;*/
   font-size: medium;
+}
+.navi1-btn a {
+  /*outline: none;*/
+  color: #ffffff;
+  margin-left: 20px;
+  /*padding: 5px;*/
+  /*width: 100px;*/
+  display: inline-block;
+  /*text-decoration: none;*/
+}
+.home {
+  border-bottom: 3px solid white;
 }
 .navi2 {
   /*padding: 10px;*/
@@ -260,8 +268,8 @@ a:hover {
   color: #ffffff;
 }
 #mid-category .container {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 #mid-category img {
   height: 100px;
@@ -317,10 +325,11 @@ a:hover {
   color: white;
 }
 .certifications {
-  text-align: center;
+  text-align: right;
+  padding-top: 30px;
 }
 .certifications img {
-  width: 300px;
+  width: 200px;
 }
 .footer2 {
   background-color: #003DA5;
@@ -333,5 +342,5 @@ a:hover {
 }
 .footer-socialmedia {
   float: right;
-  padding-right: 15px;
+  /*padding-right: 15px;*/
 }
