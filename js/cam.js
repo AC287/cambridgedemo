@@ -22,22 +22,41 @@ $(document).ready(function(){
 
   $('[data-toggle="tooltip"]').tooltip();
 
-  $('.gc-block').mouseenter(function(){
+  // $('.gc-block').mouseenter(function(){
+  //   var currentClass = '.'+classSplit($(this).attr('class'));
+  //   // console.log(currentClass);
+  //   var imgClass = '.'+currentClass+'-desc';
+  //   $(currentClass + ' img').hide();
+  //   $(currentClass + ' span').hide();
+  //   $(currentClass + '-desc').fadeIn();
+  //
+  // }).mouseleave(function(){
+  //   var currentClass = '.'+classSplit($(this).attr('class'));
+  //   // console.log(currentClass);
+  //   var imgClass = '.'+currentClass+'-desc';
+  //   $(currentClass + '-desc').hide();
+  //   $(currentClass + ' img').fadeIn();
+  //   $(currentClass + ' span').fadeIn();
+  // });
+
+  $('.gc-block').bind({
+    mouseenter: function(){
     var currentClass = '.'+classSplit($(this).attr('class'));
     // console.log(currentClass);
     var imgClass = '.'+currentClass+'-desc';
     $(currentClass + ' img').hide();
     $(currentClass + ' span').hide();
     $(currentClass + '-desc').fadeIn();
-
-  }).mouseleave(function(){
+    },
+    mouseleave: function(){
     var currentClass = '.'+classSplit($(this).attr('class'));
     // console.log(currentClass);
     var imgClass = '.'+currentClass+'-desc';
     $(currentClass + '-desc').hide();
     $(currentClass + ' img').fadeIn();
     $(currentClass + ' span').fadeIn();
-  })
+    }
+  });
 
   function classSplit(x){
     var mainclass=x.split(' ');
