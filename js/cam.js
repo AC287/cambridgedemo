@@ -4,6 +4,7 @@ $(document).ready(function(){
   // currentLocation(window.location.href);
 
   $('html').css('overflow-x','hidden');
+  $('html').css('overflow-y','auto');
 
   $('[data-toggle="tooltip"]').tooltip();
 
