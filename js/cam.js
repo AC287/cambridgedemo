@@ -1,6 +1,7 @@
 $(document).ready(function(){
   console.log('cam.js is loaded');
-  console.log(window.location.href);
+  // console.log(typeof(window.location.href));
+  // currentLocation(window.location.href);
 
   $('html').css('overflow-x','hidden');
 
@@ -46,5 +47,11 @@ $(document).ready(function(){
     var mainclass=x.split(' ');
     return mainclass[0];
   }
+
+  // function currentLocation(x){
+  //   var cur_address = x.split('/');
+  //   console.log(cur_address);
+  //   console.log(cur_address.length);
+  // }
 
 })
